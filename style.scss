@@ -3,6 +3,8 @@
 body {
   margin: 0;
   padding: 0;
+  text-decoration: none;
+  vertical-align: baseline;
   overflow: hidden;
   font-family: sans-serif;
 }
@@ -23,7 +25,7 @@ header {
   height: 100vh;
   background-image: url(pictures/ver2.png);
   background-size: 5px;
-  z-index: -9;
+  z-index: -8;
 }
 
 #mainMovie {
@@ -94,11 +96,10 @@ header {
   position: absolute;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
-
   left: 0;
-  top: -70%;
+  top: -72%;
   width: 100%;
   height: 80vh;
   background-color: $portfolio-color;
@@ -113,8 +114,94 @@ header {
 .portfolioContent {
   width: 70%;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   border: 1px solid red;
+}
+
+.progressBox {
+  display: flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 30%;
+  border: 1px solid yellow;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  padding: 1%;
+  a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+  }
+}
+
+.textProgress {
+  padding: 3%;
+  border: 2px solid blue;
+
+  span {
+    font-weight: bold;
+  }
+}
+
+.myWork1 {
+  background-image: url(pictures/first-portfolio.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-bottom: 57%;
+  width: 100%;
+  border: 1px solid red;
+}
+
+.myWork2 {
+  background-image: url(pictures/OnChairWebsite.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-bottom: 57%;
+  width: 100%;
+  border: 1px solid red;
+}
+
+.myWork3 {
+  background-image: url(pictures/bhagaskara.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-bottom: 57%;
+  width: 100%;
+  border: 1px solid red;
+}
+
+.messageheader {
+  text-transform: uppercase;
+  color: white;
+  font-size: 2rem;
+  border: 1px solid red;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid brown;
+  width: 50%;
+  input {
+    width: 40%;
+    vertical-align: top;
+
+   text-align: center;
+    border: 1px solid $portfolio-color;
+  }
+  textarea {
+    width: 40%;
+    text-align: center;
+    border: 1px solid $portfolio-color;
+  }
 }
 
 ////////////////////////////////////////////SECTION SKILLS//////////////////////////////////////////////////////////////
@@ -144,7 +231,8 @@ header {
   justify-content: flex-start;
   border: 1px solid red;
 }
-.skillsContenener{
+
+.skillsContenener {
   display: flex;
   flex-direction: column;
 }
