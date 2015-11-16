@@ -57,8 +57,7 @@ header {
 .aboutMeContent {
   width: 70%;
   display: flex;
-  justify-content: flex-end;
-  border: 1px solid red; }
+  justify-content: flex-end; }
 
 .tab {
   width: 10%; }
@@ -67,8 +66,7 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  border: 1px solid red; }
+  align-items: center; }
   .title p {
     color: white;
     text-transform: uppercase;
@@ -96,8 +94,7 @@ header {
 .portfolioContent {
   width: 70%;
   display: flex;
-  justify-content: space-between;
-  border: 1px solid red; }
+  justify-content: space-between; }
 
 .progressBox {
   display: flex;
@@ -108,7 +105,6 @@ header {
   align-items: center;
   text-align: center;
   width: 30%;
-  border: 1px solid yellow;
   text-decoration: none;
   text-transform: uppercase;
   color: white;
@@ -119,8 +115,7 @@ header {
     color: white; }
 
 .textProgress {
-  padding: 3%;
-  border: 2px solid blue; }
+  padding: 3%; }
   .textProgress span {
     font-weight: bold; }
 
@@ -129,30 +124,26 @@ header {
   background-repeat: no-repeat;
   background-size: contain;
   padding-bottom: 57%;
-  width: 100%;
-  border: 1px solid red; }
+  width: 100%; }
 
 .myWork2 {
   background-image: url(pictures/OnChairWebsite.png);
   background-repeat: no-repeat;
   background-size: contain;
   padding-bottom: 57%;
-  width: 100%;
-  border: 1px solid red; }
+  width: 100%; }
 
 .myWork3 {
   background-image: url(pictures/bhagaskara.png);
   background-repeat: no-repeat;
   background-size: contain;
   padding-bottom: 57%;
-  width: 100%;
-  border: 1px solid red; }
+  width: 100%; }
 
 .messageheader {
   text-transform: uppercase;
   color: white;
   font-size: 2rem;
-  border: 1px solid red;
   padding-top: 1%;
   padding-bottom: 1%; }
 
@@ -160,7 +151,6 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 1px solid brown;
   width: 50%; }
   .message input {
     width: 40%;
@@ -189,14 +179,60 @@ header {
 .skills:hover {
   right: 0; }
 
-.skillsContent {
-  width: 70%;
-  display: flex;
-  justify-content: flex-start;
-  border: 1px solid red; }
-
 .skillsContenener {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  width: 70%; }
+
+.skillsContent {
+  width: 90%;
+  text-align: center; }
+  .skillsContent p {
+    text-transform: uppercase;
+    color: white;
+    font-size: 2.5rem;
+    letter-spacing: 15px; }
+
+.skillsIcons {
+  text-align: center;
+  width: 90%; }
+
+.block {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 2%; }
+
+.level {
+  text-transform: uppercase;
+  color: white;
+  font-size: 2rem; }
+
+.icon1 {
+  background-image: url(pictures/HTML5_Logo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-bottom: 20%;
+  width: 18%; }
+
+.icon2 {
+  background-image: url(pictures/css3_Logo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-bottom: 20%;
+  width: 18%; }
+
+.icon3 {
+  background-image: url(pictures/js_Logo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-bottom: 20%;
+  width: 18%; }
+
+.icon4 {
+  background-image: url(pictures/JQuery_Logo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-bottom: 11%;
+  width: 42%; }
 
 /*# sourceMappingURL=style.css.map */
